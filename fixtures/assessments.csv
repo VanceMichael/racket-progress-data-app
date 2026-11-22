@@ -214,3 +214,9 @@ K42-2-0,A42,2,2,motion,net,6,dry,-
 K42-2-1,A42,2,2,motion,drive,10,dry,-
 K42-3-0,A42,3,3,motion,net,11,dry,-
 K42-3-1,A42,3,3,motion,drive,7,dry,-
+B01,A1,2,2,wall,net,9,dry,-
+B02,A4,2,2,wall,net,9,dry,-
+B03,A8,2,2,wall,net,12,dry,-
+B04,A9,2,2,wall,net,9,dry,-
+B05,A8,2,2,wall,drive,7,dry,-
+B06,A9,2,2,wall,drive,10,dry,-

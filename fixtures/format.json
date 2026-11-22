@@ -54,6 +54,23 @@
       "min_age",
       "max_age",
       "estimated_min_score"
+    ],
+    "bridge-sessions": [
+      "session",
+      "period",
+      "level",
+      "conditions",
+      "left_event",
+      "right_event"
+    ],
+    "lesson-changes": [
+      "change",
+      "person",
+      "period",
+      "from_slot",
+      "to_slot",
+      "state",
+      "known_period"
     ]
   },
   "links": [
@@ -86,6 +103,36 @@
       "supersedes",
       "assessments",
       "event"
+    ],
+    [
+      "bridge-sessions",
+      "left_event",
+      "assessments",
+      "event"
+    ],
+    [
+      "bridge-sessions",
+      "right_event",
+      "assessments",
+      "event"
+    ],
+    [
+      "lesson-changes",
+      "person",
+      "rosters",
+      "id"
+    ],
+    [
+      "lesson-changes",
+      "from_slot",
+      "courses",
+      "slot"
+    ],
+    [
+      "lesson-changes",
+      "to_slot",
+      "courses",
+      "slot"
     ]
   ]
 }

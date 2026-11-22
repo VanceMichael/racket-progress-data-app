@@ -1,0 +1,5 @@
+change,person,period,from_slot,to_slot,state,known_period
+M1,A2,3,S2,S1,proposed,3
+M2,A4,3,S3,S4,declined,3
+M3,A6,3,,S4,confirmed,3
+M4,A1,4,S1,S5,confirmed,4
