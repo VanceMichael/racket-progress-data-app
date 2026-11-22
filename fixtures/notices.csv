@@ -1,0 +1,6 @@
+person,period,slot,status
+A1,3,S1,confirmed
+A2,3,S2,notified
+A3,3,S1,notified
+A4,3,S3,confirmed
+A6,3,S4,proposed

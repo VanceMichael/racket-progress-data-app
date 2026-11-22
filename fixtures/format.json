@@ -1,0 +1,91 @@
+{
+  "tables": {
+    "rosters": [
+      "id",
+      "centre",
+      "age",
+      "level",
+      "group",
+      "from_period",
+      "to_period",
+      "change"
+    ],
+    "assessments": [
+      "event",
+      "person",
+      "period",
+      "known_period",
+      "form",
+      "action",
+      "score",
+      "conditions",
+      "supersedes"
+    ],
+    "form-links": [
+      "link",
+      "action",
+      "level",
+      "left",
+      "right",
+      "support_min"
+    ],
+    "courses": [
+      "slot",
+      "centre",
+      "level",
+      "coach",
+      "court",
+      "time",
+      "capacity"
+    ],
+    "notices": [
+      "person",
+      "period",
+      "slot",
+      "status"
+    ],
+    "staff": [
+      "coach",
+      "high_level_authority",
+      "centre_allowed"
+    ],
+    "age-rules": [
+      "level",
+      "min_age",
+      "max_age",
+      "estimated_min_score"
+    ]
+  },
+  "links": [
+    [
+      "assessments",
+      "person",
+      "rosters",
+      "id"
+    ],
+    [
+      "notices",
+      "person",
+      "rosters",
+      "id"
+    ],
+    [
+      "notices",
+      "slot",
+      "courses",
+      "slot"
+    ],
+    [
+      "courses",
+      "coach",
+      "staff",
+      "coach"
+    ],
+    [
+      "assessments",
+      "supersedes",
+      "assessments",
+      "event"
+    ]
+  ]
+}
